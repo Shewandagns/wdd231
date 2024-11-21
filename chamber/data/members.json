@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Addis Chamber Trade Fair",
+        "address": "Addis Ababa, Ethiopia",
+        "phone": "(+251) 11-551-8055",
+        "website": "https://tradefair.addischamber.com/",
+        "image": "https://tradefair.addischamber.com/wp-content/uploads/2024/08/cropped-Trade-fair-logo-scaled-1.jpg", 
+        "membershipLevel": 3,
+        "description": "Showcasing opportunities and fostering trade connections."
+    },
+    {
+        "name": "Ministry of Agriculture",
+        "address": "Near country mall, Addis Ababa Ethiopia",
+        "phone": "(+251) 11-641-1969",
+        "website": "http://www.moa.gov.et",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ministry_of_Agriculture_of_Ethiopia.png",
+        "membershipLevel": 2,
+        "description": "Providing advance sustainable agriculture and food security in Ethiopia."
+    },
+    {
+        "name": "Ministry of Health",
+        "address": "Sudan Street, Addis Ababa Ethiopia",
+        "phone": "(+251) 11-551-7011",
+        "website": "https://www.moh.gov.et/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Health_Ministry_Ethiopia_Logo.png",
+        "membershipLevel": 1,
+        "description": "Ensuring quality healthcare and promoting public well-being."
+    },
+    {
+        "name": "Ethio Telecome",
+        "address": "Legehar, Addis Ababa Ethiopia",
+        "phone": "(+251) 994/980",
+        "website": "https://www.ethiotelecom.et/",
+        "image": "https://addisfortune.news/wp-content/uploads/2022/10/Ethio-telecom.jpg",
+        "membershipLevel": 3,
+        "description": "Connecting Ethiopia through reliable and innovative telecom services."
+    },
+    {
+        "name": "Institute of Directors Ethiopia",
+        "address": "Addis Ababa, Ethiopia",
+        "phone": "(+251) 11-551-8055",
+        "website": "https://addischamber.com/business-innovation-center/",
+        "image": "https://addischamber.com/wp-content/uploads/2023/11/IOD.png",
+        "membershipLevel": 2,
+        "description": "Fostering effective leadership and governance in Ethiopia."
+    },
+    {
+        "name": "Addis Chamber Training Institute",
+        "address": "Addis Ababa, Ethiopia",
+        "phone": "(+251) 11-551-8055",
+        "website": "https://addischamber.com/training-institute",
+        "image": "https://addischamber.com/wp-content/uploads/2023/12/ACTI.png",
+        "membershipLevel": 1,
+        "description": "Empowering professionals through practical training and development."
+    },
+    {
+        "name": "Business Innovation Center",
+        "address": "Addis Ababa, Ethiopia",
+        "phone": "(+251) 11-551-8055",
+        "website": "https://addischamber.com/business-innovation-center",
+        "image": "https://addischamber.com/wp-content/uploads/2023/11/BIC-logo-final-1.png",
+        "membershipLevel": 3,
+        "description": "Driving entrepreneurship and innovation for business growth."
+    }
+]
