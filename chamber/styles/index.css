@@ -1,0 +1,137 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+div #hero{
+    display: flex;
+    justify-content: center;
+    background-color: var(--p-bcolor);
+}
+
+#hero img {
+    width: 1010;
+    height: 100%;
+    
+}
+
+#btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#join {
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    background-color: var(--p-bcolor);
+    color: var(--s1-bcolor);
+    border-radius: 10%;
+}
+
+#join:hover {
+    background-color: var(--s1-bcolor);
+    color: var(--p-bcolor);
+}
+
+#events,
+#currentWeather,
+#forecast {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: var(--p-bcolor);
+    color: var(--t-color);
+    margin: 10px;
+}
+
+#events h3,
+#currentWeather h3,
+#forecast h3 {
+    background-color: var(--t-color);
+    color: var(--p-bcolor);
+    font-weight: 900;
+    margin: auto;
+    padding: 1rem;
+}
+
+#weatherdiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#iconDiv {
+    grid-column: 1/2;
+    justify-self: end;
+}
+
+#textDiv {
+    grid-column: 2/3;
+    margin-left: 10px;
+}
+
+#forecast p {
+    margin-left: 50px;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; 
+    align-items: start;
+    text-align: center;
+}
+
+#cards section {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: var(--s1-bcolor);
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cards img {
+    width: auto;
+    height: 100%;
+}
+
+#discover-grid {
+    background-color: rgba(44, 62, 80, 0.9);
+
+}
+
+.sidebar .card{
+    margin: 15px; 
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.sidebar h2,
+.sidebar h3 {
+    text-align: center;
+}
+
+.imagesdiv {
+    margin: 15px;
+}
+
+.imagesdiv h3 {
+    text-align: center;
+    color: var(--t-color);
+    margin-top: 0px;
+}

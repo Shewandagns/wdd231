@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/chamber.css">
 
+    <link rel="stylesheet" href="styles/index.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Ubuntu+Sans:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
@@ -26,6 +28,7 @@
     <script src="scripts/nav.js" defer></script>
     <script src="scripts/footer.js" defer></script>
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/index.js" defer></script>
 
 </head>
 
@@ -53,7 +56,43 @@
     </nav>
 
     <main>
-        <p>coming soon</p>
+        <div id="mainGrid">
+            <div id="hero">
+                <picture>
+                    <source srcset="images/Sheger.png" media="(min-width:500px)">
+                    <source srcset="images/Sheger.png" media="(min-width:1024px)">
+                    <img src="images/Sheger.png" alt="Nezahualcoyotl's baths Texcoco" width="768" height="960">
+                </picture>
+            </div>
+
+            <div id="btnContainer">
+                <a href="join.html" button id="join" aria-label="Join Us!">Join Us!</button>
+                </a>
+            </div>
+
+            <div id="events">
+                <h3>Events</h3>
+                <p>No current events scheduled</p>
+            </div>
+
+            <div id="currentWeather">
+                <h3>Current Weather</h3>
+                <div id="weatherdiv">
+                    <div id="iconDiv"></div>
+                    <div id="textDiv"></div>
+                </div>
+
+            </div>
+
+            <div id="forecast">
+                <h3>Weather forecast</h3>
+            </div>
+        </div>
+
+        <div>
+            <article id="cards">
+            </article>
+        </div>
     </main>
 
     <footer>
