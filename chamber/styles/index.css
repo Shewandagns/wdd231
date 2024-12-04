@@ -133,5 +133,6 @@ section {
 .imagesdiv h3 {
     text-align: center;
     color: var(--t-color);
-    margin-top: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
