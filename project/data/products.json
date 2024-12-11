@@ -1,0 +1,44 @@
+{
+    "featured": [
+        { 
+            "name": "iPhone 14 Pro", 
+            "price": "$999", 
+            "image": "images/i14-pro.jpg" 
+        },
+        {
+            "name": "MacBook Pro",
+            "price": "$1299",
+            "image": "images/macbookpro.jpg"
+        },
+        {
+            "name": "Samsung Galaxy S23",
+            "price": "$699",
+            "image": "images/S23.jpg"
+        },
+        {
+            "name": "Techno Camon 20",
+            "price": "$799",
+            "image": "images/tech20.jpg"
+        },
+        {
+            "name": "Infinix Note 40",
+            "price": "$1299",
+            "image": "images/infinix.jpg"
+        },
+        {
+            "name": "HP EliteBook",
+            "price": "$699",
+            "image": "images/HPlaptop.jpg"
+        },
+        {
+            "name": "Dell XPS 13",
+            "price": "$699",
+            "image": "images/DellXPS.jpg"
+        },
+        {
+            "name": "ipad mini 7",
+            "price": "$1299",
+            "image": "images/ipad_mini.webp"
+        }
+    ]
+} 

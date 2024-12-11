@@ -1,0 +1,235 @@
+{
+    "categories": [
+        {
+            "name": "Smartphones",
+            "products": [
+                { 
+                    "name": "iPhone 14 Pro", 
+                    "price": "$999", 
+                    "image": "images/i14-pro.jpg" 
+                },
+                {
+                    "name": "iPhone 13",
+                    "price": "$999",
+                    "image": "images/iphone-13.jpg"
+                },
+                {
+                    "name": "iPhone 12 PRO MAX",
+                    "price": "$999",
+                    "image": "images/i12_pro_max.jpg"
+                },
+                {
+                    "name": "iPhone 11",
+                    "price": "$999",
+                    "image": "images/i11-pro.jpg"
+                },
+                {
+                    "name": "iPhone XR",
+                    "price": "$999",
+                    "image": "images/iphone-xr.webp"
+                },
+
+                {
+                    "name": "Samsung Galaxy S24 Ultra",
+                    "price": "$699",
+                    "image": "images/s24_ultra.jpg"
+                },
+                {
+                    "name": "Samsung Galaxy S23",
+                    "price": "$699",
+                    "image": "images/S23.jpg"
+                },
+                { 
+                    "name": "Samsung Galaxy S22", 
+                    "price": "$799", 
+                    "image": "images/s22-ultra.jpg" 
+                },
+                {
+                    "name": "Samsung Galaxy S10+",
+                    "price": "$699",
+                    "image": "images/S10+.jpg"
+                },
+                {
+                    "name": "Samsung Galaxy S8+",
+                    "price": "$699",
+                    "image": "images/S8-plus.webp"
+                },
+                
+                {
+                    "name": "Google Pixel 8",
+                    "price": "$699",
+                    "image": "images/pixel-8.jpg"
+                },
+                {
+                    "name": "Google Pixel 7",
+                    "price": "$699",
+                    "image": "images/pixel-7pro.webp"
+                },
+
+                {
+                    "name": "Techno Camon 20",
+                    "price": "$799",
+                    "image": "images/tech20.jpg"
+                },
+                {
+                    "name": "Techno Spark 10",
+                    "price": "$799",
+                    "image": "images/spark-10.webp"
+                },
+
+                {
+                    "name": "Infinix Note 40",
+                    "price": "$1299",
+                    "image": "images/infinix.jpg"
+                },
+                {
+                    "name": "Infinix Note 10",
+                    "price": "$1299",
+                    "image": "images/infinix-Hot10.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Laptops",
+            "products": [
+                { 
+                    "name": "MacBook Air M2", 
+                    "price": "$1199", 
+                    "image": "images/macbook-air-m2.jpg" 
+                },
+                {
+                    "name": "MacBook Pro",
+                    "price": "$1299",
+                    "image": "images/macbookpro.jpg"
+                },
+
+                {
+                    "name": "HP EliteBook",
+                    "price": "$699",
+                    "image": "images/HPlaptop.jpg"
+                },
+                { 
+                    "name": "HP Pavilion", 
+                    "price": "$999", 
+                    "image": "images/hp-pavilion.webp" 
+                },
+
+                {
+                    "name": "Dell XPS 13",
+                    "price": "$699",
+                    "image": "images/DellXPS.jpg"
+                },
+                {
+                    "name": "Dell XPS 13",
+                    "price": "$999",
+                    "image": "images/DELLXPS1.jpg"
+                },
+
+                { 
+                    "name": "Lenovo-IdeaPad-5", 
+                    "price": "$999", 
+                    "image": "images/Lenovo-IdeaPad-5.webp" 
+                },
+                {
+                    "name": "Lenovo ThinkPad X1",
+                    "price": "$1199",
+                    "image": "images/LENOVO.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Tablets",
+            "products": [
+                {
+                    "name": "ipad Pro",
+                    "price": "$1299",
+                    "image": "images/ipad_pro.webp"
+                },
+                {
+                    "name": "ipad mini 7",
+                    "price": "$1299",
+                    "image": "images/ipad_mini.webp"
+                },
+                { 
+                    "name": "iPad Air", 
+                    "price": "$799", 
+                    "image": "images/ipad-air.webp" 
+                },
+
+                { 
+                    "name": "Galaxy Tab S8", 
+                    "price": "$699", 
+                    "image": "images/tab-s8.jpg" 
+                },
+                { 
+                    "name": "Galaxy Tab S7", 
+                    "price": "$699", 
+                    "image": "images/tab-s7.jpg" 
+                },
+
+                { 
+                    "name": "Huawei MediaPad T3", 
+                    "price": "$799", 
+                    "image": "images/huawei-mediapad.webp" 
+                },
+                { 
+                    "name": "Tecno Droipad", 
+                    "price": "$699", 
+                    "image": "images/dropad8.jpg" 
+                },
+                { 
+                    "name": "Lenovo M10 Plus", 
+                    "price": "$799", 
+                    "image": "images/m10.webp" 
+                }
+            ]
+        },
+        {
+            "name": "Smart Watches",
+            "products": [
+                { 
+                    "name": "Apple Watch Series 8", 
+                    "price": "$399", 
+                    "image": "images/apple-series8.webp" 
+                },
+                { 
+                    "name": "Apple Watch Series 10", 
+                    "price": "$399", 
+                    "image": "images/Apple_Series_10.webp" 
+                },
+
+                { 
+                    "name": "Galaxy Watch 5", 
+                    "price": "$279", 
+                    "image": "images/galaxy-watch5.webp" 
+                },
+                { 
+                    "name": "Galaxy Watch 4", 
+                    "price": "$279", 
+                    "image": "images/galaxy-watch4.webp" 
+                },
+
+                { 
+                    "name": "Oraimo Watch lite", 
+                    "price": "$279", 
+                    "image": "images/oraimo-watch-lite.webp" 
+                },
+                { 
+                    "name": "Tecno Watch 2", 
+                    "price": "$279", 
+                    "image": "images/tecno-watch2.webp" 
+                },
+                { 
+                    "name": "HUAWEI GT2 Pro", 
+                    "price": "$279", 
+                    "image": "images/huawei-watch.webp" 
+                },
+                { 
+                    "name": "HUAWEI WATCH FIT 2", 
+                    "price": "$279", 
+                    "image": "images/HUAWEI-WATCH-FIT-2.webp" 
+                }
+            ]
+        }
+    ]
+}

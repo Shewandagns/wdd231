@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheger Online Shopping</title>
+    <meta name="author" content="Shewandagn Woyesa">
+    <meta name="description" content="Home Page for Sheger Online Shopping">
+    <link rel="icon" href="favicon.ico">
+
+    <meta property="og:title" content="Sheger Online Shopping">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shewandagns.github.io/wdd231/chamber/index.html">
+    <meta property="og:image" content="https://shewandagns.github.io/wdd231/chamber/images/sheger.png" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Ubuntu+Sans:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/sheger-gebeya-small.css">
+    <link rel="stylesheet" href="styles/sheger_gebeya.css">
+
+    <!--
+    <link rel="stylesheet" href="styles/chamber.css"> 
+    <link rel="stylesheet" href="styles/index.css">
+    -->
+
+    <!--
+    <script src="scripts/nav.js" defer></script>
+    >
+    <script src="scripts/directory.js" defer></script> 
+    <script src="scripts/index.js" defer></script> -->
+    
+
+    <!--sheger online shopping-->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!--sheger online shopping-->
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/footer.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+        <picture>
+            
+            <img src="images/ShegerOnlinShopping.webp" alt="Chamber of commerce icon" width="25" height="38" loading="lazy">
+        </picture> 
+
+        <div>
+            <h1>Sheger Online Shopping</h1>
+        </div>
+        <button id="navButton" type="button" aria-label="Menu"></button>
+    </header>
+
+    <nav id="animation">
+        <ul class="menuLinks">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="super-deals.html">Super Deals</a></li>
+            <li><a href="help-center.html">Help Center</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Welcome to Sheger Online Shopping</h1>
+                <p>Find the best smartphones and laptops for your needs.</p>
+            </div>
+        </div>
+
+        <section class="categories">
+            <h2>Categories</h2>
+            <div id="category-list"></div>
+            <div id="category-products" class="product-grid"></div>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="featured-products"></div>
+        </section>
+
+        <section class="most-viewed">
+            <h2>Most Viewed Items</h2>
+            <div class="product-grid" id="most-viewed-products"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p><strong>Sheger Online Shopping</strong></p>
+            <p>Addis Ababa, Ethiopia</p>
+            <p>Megenagna</p>
+            <p>info@shegergebeya.com</p>
+            <p>(+251)91 244 3428</p>
+        </div>
+
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Shewandagn Woyesa</p>
+            <p><span id="currentYear"></span>Sheger Online Shopping</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
