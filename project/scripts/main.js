@@ -50,6 +50,6 @@ fetch('data/most-viewed.json')
     })
     .catch(error => console.error('Error loading most viewed products:', error));
 
-  // Update Footer Dates
-document.getElementById('currentYear').textContent = new Date().getFullYear();
-document.getElementById('lastModified').textContent = `Last Modified: ${document.lastModified}`;
+// Additional JS functionality can be added here
+console.log("Sheger Online Shopping - Main Script Loaded");
+

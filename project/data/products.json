@@ -2,43 +2,48 @@
     "featured": [
         { 
             "name": "iPhone 14 Pro", 
-            "price": "$999", 
+            "price": "118,00 ETB", 
             "image": "images/i14-pro.jpg" 
         },
         {
-            "name": "MacBook Pro",
-            "price": "$1299",
+            "name": "MacBook Pro M1",
+            "price": "170,000 ETB",
             "image": "images/macbookpro.jpg"
         },
         {
             "name": "Samsung Galaxy S23",
-            "price": "$699",
+            "price": "85,000 ETB",
             "image": "images/S23.jpg"
         },
         {
             "name": "Techno Camon 20",
-            "price": "$799",
+            "price": "36,000 ETB",
             "image": "images/tech20.jpg"
         },
         {
             "name": "Infinix Note 40",
-            "price": "$1299",
+            "price": "40,000 ETB",
             "image": "images/infinix.jpg"
         },
         {
-            "name": "HP EliteBook",
-            "price": "$699",
+            "name": "HP EliteBook G8",
+            "price": "69,000 ETB",
             "image": "images/HPlaptop.jpg"
         },
         {
             "name": "Dell XPS 13",
-            "price": "$699",
+            "price": "135,000 ETB",
             "image": "images/DellXPS.jpg"
         },
         {
             "name": "ipad mini 7",
-            "price": "$1299",
+            "price": "85,000 ETB",
             "image": "images/ipad_mini.webp"
+        },
+        { 
+            "name": "Apple Watch Series 8", 
+            "price": "20,000 ETB", 
+            "image": "images/apple-series8.webp" 
         }
     ]
 } 

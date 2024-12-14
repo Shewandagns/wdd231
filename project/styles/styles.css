@@ -1,151 +1,115 @@
 :root {
-    --header-and-footer-background-color: #023e8a;
+    --header-background-ccolor: #808080;
+    --t-color: #ffffff;
+    --nav-and-footer-background-color: #003366;
     --nav-background-color: #00b4d8;
-    --nav-hover-color: #03045e;
-    --header-and-footer-color:#ffff;
-    --nav-hover-background-color: #03045e;
+    --nav-hover-color: #808080;
+    --nav-hover-background-color: #ffff;
+    --p-bcolor: #2c3e50;
 }
 
-*{
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    font-family: "Roboto", serif;
+h1,
+h2,
+h3,
+button {
+    font-family: "Raleway", sans-serif;
 }
 
-/* General Styles */
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+p,
+a,
+form,
+h4,
+li {
+    font-family: "Inria Sans", sans-serif;
 }
 
-main h1{
-    margin:20px;
-}
-
-.menu-icon {
-    display: none;
-    cursor: pointer;
-}
-
-/*Welcome section*/
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Unique_Smart_Phone.webp);
-    height: 300px;
-    display: flex;
-    justify-content: center;
+header {
+    display: grid;
+    grid-template-columns: 44px auto 44px;
     align-items: center;
-    text-align: center;
+    background-color: var(--header-background-ccolor);
+    font-size: .8rem;
+    border: 1px solid black;
 }
 
-.hero-text h1 {
-    margin: 0;
-    font-size: 2em;
-    color: #ddd;
+header div h1 {
+    margin: 2px;
 }
 
-.hero-text p {
-    margin: 20px 0 0;
-    color: #ddd;
+header img,
+header div {
+    margin-left: 10px;
+    border-radius: 25px;
 }
 
-/* Categories and Products */
-.categories, 
-.featured-products, 
-.most-viewed {
-    margin: 20px;
+nav {
+    background-color: var(--nav-and-footer-background-color);
 }
 
-.categories h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    justify-items: center;
-}
-
-.product-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-    max-width: 200px;
-}
-
-.product-card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.product-card h3 {
-    font-size: 1.1em;
-    margin: 10px 0;
-}
-
-.product-card p {
-    color: #333;
-    font-size: 0.9em;
-}
-
-#category-list {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
-}
-
-#category-list button {
-    padding: 0.5rem 1rem;
+#navButton {
+    font-size: 2rem;
+    background: none;
     border: none;
-    background: #007bff;
-    color: white;
+    color: var(--p-bcolor);
     cursor: pointer;
-    border-radius: 5px;
-}
-
-#category-list button:hover {
-    background: #0056b3;
-}
-
-#category-products .product-grid div {
-    text-align: center;
-}
-
-/*Featured Products*/
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
-}
-
-.product-grid div {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    text-align: center;
-}
-
-/*Most Viewed Items*/
-.most-viewed {
-    background: var(--nav-background-color);
-    padding: 3rem 2rem;
-}
-
-.most-viewed h2 {
+    width: 100%;
     text-align: left;
-    margin-bottom: 1rem;
+    padding: .25rem 2vw;
+}
+
+#navButton::before {
+    content: "☰";
+}
+
+ul.menuLinks li a {
+    display: block;
+    padding: .75rem 2vw;
+    color: var(--t-color);
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+ul.menuLinks a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--p-bcolor);
+}
+
+li.active a {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul.menuLinks {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+#navButton.open::before {
+    content: "X";
+}
+
+nav {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+nav.open {
+    grid-template-rows: 1fr;
+}
+
+footer {
+    background-color: var(--nav-and-footer-background-color);
+    color: var(--t-color);
+    padding: 1rem;
+    margin: auto;
+    border: 1px solid black;
+}
+
+footer div {
+    margin-left: 2rem;
 }

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,32 +13,31 @@
     <meta property="og:url" content="https://shewandagns.github.io/wdd231/chamber/index.html">
     <meta property="og:image" content="https://shewandagns.github.io/wdd231/chamber/images/sheger.png" >
 
-    <link rel="stylesheet" href="styles/chamber-small.css">
-    <link rel="stylesheet" href="styles/chamber-large.css">
-    
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/chamber.css">
-    <link rel="stylesheet" href="styles/index.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Ubuntu+Sans:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
 
+    <!--sheger online shopping-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/sheger-gebeya.css">
+    <link rel="stylesheet" href="styles/sheger-gebeya-small.css">
+    <link rel="stylesheet" href="styles/sheger_gebeya_larg.css">
 
+    <!--sheger online shopping-->
     <script src="scripts/nav.js" defer></script>
     <script src="scripts/footer.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
-    <script src="scripts/index.js" defer></script>
+    <script src="scripts/main.js" defer></script>
 
+    <!--Super Deals-->
+    <script src="scripts/super-deals.js" defer></script>
 </head>
-
 <body>
 
     <header>
-        <!-- <picture>
+        <picture>
             
             <img src="images/ShegerOnlinShopping.webp" alt="Chamber of commerce icon" width="25" height="38" loading="lazy">
-        </picture> -->
+        </picture> 
 
         <div>
             <h1>Sheger Online Shopping</h1>
@@ -54,10 +52,16 @@
             <li><a href="help-center.html">Help Center</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
-    </nav>
+    </nav>+
+    
 
     <main>
-        <h1>coming soon</h1>
+        <section class="deals-container">
+            <h2>Today's Super Deals</h2>
+            <div id="deals-list" class="deals-list">
+                <!-- Product deals will be dynamically inserted here by JavaScript -->
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -72,7 +76,7 @@
         <div>
             <p>WDD231 Class Project</p>
             <p>Shewandagn Woyesa</p>
-            <p><span id="currentYear"></span>Addis Chamber of Commerce</p>
+            <p><span id="currentYear"></span>Sheger Online Shopping</p>
             <p id="lastModified"></p>
         </div>
     </footer>

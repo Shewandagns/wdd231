@@ -1,0 +1,17 @@
+{
+    "topics": [
+        { "title": "Account Issues", "description": "Learn how to manage your account." },
+        { "title": "Shipping & Delivery", "description": "Information about shipping and delivery." },
+        { "title": "Payment Methods", "description": "Help with making payments." }
+    ],
+    "faq": [
+        { "question": "How do I create an account?", "answer": "Click on 'Sign Up' and fill in your details." },
+        { "question": "What payment methods do you accept?", "answer": "We accept credit cards, PayPal, and more." },
+        { "question": "How do I track my order?", "answer": "You can track your order under 'Order History'." }
+    ],
+    "solutions": [
+        { "title": "Troubleshooting Account Issues", "description": "Fix common problems with your account." },
+        { "title": "How to Change Your Shipping Address", "description": "A step-by-step guide to update your address." },
+        { "title": "Payment Troubleshooting", "description": "Resolve issues with payments or payment failures." }
+    ]
+}
